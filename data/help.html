@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html40/loose.dtd">
+
+<html>
+<head>
+  <title>TicTacToe3: Help</title>
+  <link rel="stylesheet" type="text/css"
+    href="http://yui.yahooapis.com/2.2.0/build/fonts/fonts-min.css">
+  <style type="text/css">
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    li {
+      padding-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+<h1>TicTacToe<sup>3</sup></h1>
+
+<h3>Rules of the Game</h3>
+
+<ul>
+  <li>
+    On a basic level, the game is three levels of tic-tac-toe stacked in a
+    cube.
+  </li>
+
+  <li>
+    Each level is played successively, starting from the bottom level and
+    ending with the top level.  Hence, it matches the theme "The only way is
+    up."
+  </li>
+
+  <li>
+    If a player achieves tic-tac-toe on a given level, per the normal rules, he
+    wins 1 point.  Nonetheless, players continue on that level until all
+    squares are filled.
+  </li>
+
+  <li>
+    As level 3 is being played, it becomes possible to achieve tic-tac-toe
+    across the three levels.  If a player achieves this, he wins 1 point.
+  </li>
+
+  <li>
+    The 2nd, 3rd, 7th, and 8th moves on a given level are considered special.
+    If a player gets tic-tac-toe through three of his special squares, he wins
+    2 points.
+  </li>
+
+  <li>
+    The player to move first on the first level is decided randomly.
+    Otherwise, the players take turns going first on each of the levels.
+  </li>
+
+  <li>
+    Once every square on all three levels is filled, the player with the most
+    points wins.
+  </li>
+</ul>
+
+<h3>Text Mode</h3>
+
+<p>
+  If you think text mode is "1337" and that GUIs are for "suckas", try
+</p>
+
+<blockquote>python run_game.py -t</blockquote>
+
+</body>
+</html>
